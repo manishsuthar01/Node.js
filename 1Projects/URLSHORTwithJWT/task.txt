@@ -1,0 +1,8 @@
+routes->
+ 
+  POST/URL--> generates a new short url and returns the
+       shortended url in the formate example.com/random-id
+
+  GET/:id-->Redirects the user to the original URL
+
+  GET/USER/analytics/:id--->return the clicks for the provided short id.

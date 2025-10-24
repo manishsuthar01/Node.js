@@ -1,0 +1,3 @@
+restfful api-> rules->best practice to follow in server 
+1->works on server -client archetecture
+2->always resfect https methods

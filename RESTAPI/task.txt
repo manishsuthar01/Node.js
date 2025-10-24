@@ -1,0 +1,12 @@
+REST API-> json data
+
+GET /users-html document render 
+GET /api/users-list all users JSON -Done--->done
+
+GET /api/users/1- get the user with ID 1-->dynamic route
+
+POST /api/users -create new user--->done
+
+PATCh /api/users/1- edit the user with ID 1 --->done
+
+DELETE /api/users/1- delete the user with ID 1---->done

@@ -1,0 +1,2 @@
+Workers do not share memory; 
+they communicate via IPC (Inter-Process Communication).
