@@ -11,7 +11,7 @@ const userRoute = require("./routes/userRoute");
 
 const app = express();
 // db connection
-conectMongoDb("mongodb://localhost:27017/short-url");
+conectMongoDb("mongodb://localhost:/short-url");
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
