@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const app = express();
 // connection
 mongoose
-  .connect("mongodb://127.0.0.1:27017/youtube")
+  .connect("mongodb:")
   .then(() => console.log("mongodb is connected"))
   .catch((err) => console.log("Mongo Error", err));
 // schema
